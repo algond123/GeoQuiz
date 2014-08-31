@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name = "app_name" >MovilQuiz</string>
+	<string name = "action_settings"> Settings </string>
+	<string name = "correct_toast"> Correct! </string>
+	<string name = "incorrect_toast"> Incorrect! </string>
+	<string name = "q1">An activity is usually a single screen that the user sees on the device at one time?</string>
+	<string name = "q2">The Activity Manager is responsible for creating, destroying, and managing activities?</string>
+	<string name = "q3">When an activity doesn’t exist in memory, it is in a starting state?</string>
+	<string name = "q4">Only one activity on a device can be in a running state?</string> 
+	<string name = "q5">When an activity is not in focus but still visible on the screen, we say it’s in a paused state?</string>
+	<string name = "q6">When an activity is not visible, but still in memory, we say it’s in a stopped state?</string>
+	<string name = "q7">A destroyed activity is no longer in memory?</string>
+	<string name = "q8">The fact that an activity is in a running state doesn’t mean it’s doing much?</string>
+	<string name = "q9">There are currently two ways to create activity user interfaces: the standard and older activity views and the newer fragments?</string>
+	<string name = "q10">Intents are messages that are sent among the major building blocks?</string>
+	<string name = "q11">An intent could be explicit or implicit?</string>
+	<string name = "q12">Services run in the background and don’t have any user interface components?</string>
+	<string name = "q13">Content providers are interfaces for sharing data between applications?</string>
+	<string name = "q14">Broadcast receivers are Android’s implementation of a system-wide?</string>
+	<string name = "q15">Broadcast receivers themselves do not have any visual representation?</string>
+</resources>

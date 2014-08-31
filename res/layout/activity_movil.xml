@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/testproduits"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="48dp" >
+   
+    <TextView        
+        android:id="@+id/inicio"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:textSize="48sp" 
+        android:visibility="visible"
+        android:textColor="@android:color/darker_gray"
+		android:text="Test"
+		android:shadowColor="@android:color/holo_green_light"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="8"        
+        /> 
+    <TextView        
+        android:id="@+id/question_text_view"  
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+		android:textColor="@android:color/darker_gray"
+        android:text="Test"
+        android:shadowColor="@android:color/background_light"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="4"
+        android:background="#80000000"
+         /> 
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="24dp" >        
+        <Button 
+            android:id="@+id/true_button" 
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@layout/boton"
+			/>        
+        <Button 
+            android:id="@+id/false_button"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@layout/boton2"/>
+    </LinearLayout>
+    <LinearLayout  
+            android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:gravity="center"
+		    android:orientation="horizontal"
+		    android:paddingTop="24dp" >
+            
+	      	<TextView
+	            android:id="@+id/puntaje"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:visibility="invisible"
+	            android:textSize="18sp" 
+	           	android:textColor="@android:color/darker_gray"
+		        android:text="Test"
+		        android:shadowColor="@android:color/holo_green_light"
+		        android:shadowDx="0"
+		        android:shadowDy="0"
+		        android:shadowRadius="8"/>
+	      	<TextView
+	            android:id="@+id/cont_true"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:visibility="invisible"
+	            android:textSize="18sp"
+	           	android:textColor="@android:color/darker_gray"
+		        android:text="Test"
+		        android:shadowColor="@android:color/holo_green_light"
+		        android:shadowDx="0"
+		        android:shadowDy="0"
+		        android:shadowRadius="8"	             />
+	            
+	</LinearLayout>
+
+</LinearLayout>
